@@ -1,8 +1,38 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Archivo:700&display=swap');
+
+h1, p{
+  font-family: 'Archivo', sans-serif;
+  color: rgb(24, 24, 24);
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
+input {
+  border: rgb(226, 226, 226) 1px solid;
+  border-radius: 100px;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 10px rgb(184, 184, 184);
+  margin-top: 18px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+}
+
+button {
+  background: rgb(0, 153, 255);
+  box-shadow: 0 8px 10px rgb(0, 153, 255);
+  border: none;
+  border-radius: 100px;
+  padding: 10px 40px;
+  font-family: 'Archivo', sans-serif;
+  color: white;
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 6px;
+  font-size: 22px;
 }
